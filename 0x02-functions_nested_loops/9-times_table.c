@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_tabe - print 9 times table
+ * times_table - print 9 times table
  * Description: print 9 times table
  * Return: void
  */
@@ -12,13 +12,13 @@ void times_table(void)
 
 	for (row = 0; row <= 9; row++)
 	{
-		for (coloumn = 0; coloumn <=9; coloumn++)
+		for (coloumn = 0; coloumn <= 9; coloumn++)
 		{
 			product = row * coloumn;
 			tens = product / 10;
 			ones = product % 10;
 
-			if(coloumn == 0)
+			if (coloumn == 0)
 			{
 				_putchar('0');
 			}
