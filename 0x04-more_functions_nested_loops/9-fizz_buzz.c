@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - take the fizz-buzz challenge
- * Return: Always 0
- */
+* main - take the fizz-buzz challenge
+* Return: Always 0
+*/
 
 int main(void)
 {
@@ -16,15 +16,15 @@ int main(void)
 			printf("FizzBuzz ");
 		else if (n % 5 == 0)
 			if (n == 100)
-				printf("Buzz ");
-			else 
+				printf("Buzz");
+			else
 				printf("Buzz ");
 		else if (n % 3 == 0)
 			printf("Fizz ");
-		else
+		else 
 			printf("%d ", n);
 	}
 	printf("\n");
-	
-	return (0);
+
+	retrun (0);
 }
